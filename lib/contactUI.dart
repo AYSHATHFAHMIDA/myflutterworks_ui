@@ -8,47 +8,89 @@ class ContactUI extends StatelessWidget{
         title: const Text('Contacts'),
       ),
       body: ListView(
-        children: const [
-          ListTile(
-            leading: CircleAvatar(backgroundImage: AssetImage('assets/images/dp1.jpg'),),
-            title: Text('Aysha'),
-            trailing: Icon(Icons.phone),
+        children:  [
+          Card(
+            child: ListTile(
+              leading:  const CircleAvatar(backgroundImage: AssetImage('assets/images/dp1.jpg'),),
+              title:  const Text('Aysha'),
+              trailing: Wrap(children: const [
+                Icon(Icons.message,color: Colors.blueAccent),
+                SizedBox(width: 10),
+                Icon(Icons.phone,color: Colors.blueAccent)
+              ]),
+            ),
           ),
-          SizedBox(height: 20,),
-          ListTile(
-            leading: CircleAvatar(backgroundImage: AssetImage('assets/images/dp2.jpg'),),
-            title: Text('Eva'),
-            trailing: Icon(Icons.phone),
+          // SizedBox(height: 20,),
+          Card(
+            child: ListTile(
+              leading: const CircleAvatar(backgroundImage: AssetImage('assets/images/dp2.jpg'),),
+              title:  const Text('Eva'),
+              trailing:Wrap(children: const [
+                Icon(Icons.message,color: Colors.blueAccent),
+                SizedBox(width: 10),
+                Icon(Icons.phone,color: Colors.blueAccent)
+              ]),
+            ),
           ),
-          SizedBox(height: 20,),
-          ListTile(
-            leading: CircleAvatar(backgroundImage: AssetImage('assets/images/dp3.jpg'),),
-            title: Text('Pinky'),
-            trailing: Icon(Icons.phone),
+          // SizedBox(height: 20,),
+          Card(
+            child: ListTile(
+              leading: const CircleAvatar(backgroundImage: AssetImage('assets/images/dp3.jpg'),),
+              title: const Text('Pinky'),
+              trailing: Wrap(children: const [
+                Icon(Icons.message,color: Colors.blueAccent),
+                SizedBox(width: 10),
+                Icon(Icons.phone,color: Colors.blueAccent)
+              ]),
+            ),
           ),
-          SizedBox(height: 20,),
-          ListTile(
-            leading: CircleAvatar(backgroundImage: AssetImage('assets/images/dp4.jpg'),),
-            title: Text('Chubby'),
-            trailing: Icon(Icons.phone),
+          // SizedBox(height: 20,),
+          Card(
+            child: ListTile(
+              leading: const CircleAvatar(backgroundImage: AssetImage('assets/images/dp4.jpg'),),
+              title: const Text('Chubby'),
+              trailing: Wrap(children: const [
+                Icon(Icons.message,color: Colors.blueAccent),
+                SizedBox(width: 10),
+                Icon(Icons.phone,color: Colors.blueAccent)
+              ]),
+            ),
           ),
-          SizedBox(height: 20,),
-          ListTile(
-            leading: CircleAvatar(backgroundImage: AssetImage('assets/images/dp5.jpg'),),
-            title: Text('ChuuBae'),
-            trailing: Icon(Icons.phone),
+          // SizedBox(height: 20,),
+          Card(
+            child: ListTile(
+              leading: const CircleAvatar(backgroundImage: AssetImage('assets/images/dp5.jpg'),),
+              title: const Text('ChuuBae'),
+              trailing: Wrap(children: const [
+                Icon(Icons.message,color: Colors.blueAccent),
+                SizedBox(width: 10),
+                Icon(Icons.phone,color: Colors.blueAccent)
+              ]),
+            ),
           ),
-          SizedBox(height: 20,),
-          ListTile(
-            leading: CircleAvatar(backgroundImage: AssetImage('assets/images/dp6.jpg'),),
-            title: Text('Cutie'),
-            trailing: Icon(Icons.phone),
+          // SizedBox(height: 20,),
+          Card(
+            child: ListTile(
+              leading: const CircleAvatar(backgroundImage: AssetImage('assets/images/dp6.jpg'),),
+              title: const Text('Cutie'),
+              trailing: Wrap(children: const [
+                Icon(Icons.message,color: Colors.blueAccent),
+                SizedBox(width: 10),
+                Icon(Icons.phone,color: Colors.blueAccent)
+              ]),
+            ),
           ),
-          SizedBox(height: 20,),
-          ListTile(
-            leading: CircleAvatar(backgroundImage: AssetImage('assets/images/dp7.jpg'),),
-            title: Text('Achu'),
-            trailing: Icon(Icons.phone),
+          // SizedBox(height: 20,),
+          Card(
+            child: ListTile(
+              leading: const CircleAvatar(backgroundImage: AssetImage('assets/images/dp7.jpg'),),
+              title: const Text('Achu'),
+              trailing: Wrap(children: const [
+                Icon(Icons.message,color: Colors.blueAccent),
+                SizedBox(width: 10),
+                Icon(Icons.phone,color: Colors.blueAccent)
+              ]),
+            ),
           )
         ],
       ),
