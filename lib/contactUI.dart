@@ -13,6 +13,7 @@ class ContactUI extends StatelessWidget{
             child: ListTile(
               leading:  const CircleAvatar(backgroundImage: AssetImage('assets/images/dp1.jpg'),),
               title:  const Text('Aysha'),
+              subtitle: const Text('9988776655'),
               trailing: Wrap(children: const [
                 Icon(Icons.message,color: Colors.blueAccent),
                 SizedBox(width: 10),
@@ -25,6 +26,7 @@ class ContactUI extends StatelessWidget{
             child: ListTile(
               leading: const CircleAvatar(backgroundImage: AssetImage('assets/images/dp2.jpg'),),
               title:  const Text('Eva'),
+              subtitle: const Text('9988776655'),
               trailing:Wrap(children: const [
                 Icon(Icons.message,color: Colors.blueAccent),
                 SizedBox(width: 10),
@@ -37,6 +39,7 @@ class ContactUI extends StatelessWidget{
             child: ListTile(
               leading: const CircleAvatar(backgroundImage: AssetImage('assets/images/dp3.jpg'),),
               title: const Text('Pinky'),
+              subtitle: const Text('9988776655'),
               trailing: Wrap(children: const [
                 Icon(Icons.message,color: Colors.blueAccent),
                 SizedBox(width: 10),
@@ -49,6 +52,7 @@ class ContactUI extends StatelessWidget{
             child: ListTile(
               leading: const CircleAvatar(backgroundImage: AssetImage('assets/images/dp4.jpg'),),
               title: const Text('Chubby'),
+              subtitle: const Text('9988776655'),
               trailing: Wrap(children: const [
                 Icon(Icons.message,color: Colors.blueAccent),
                 SizedBox(width: 10),
@@ -61,6 +65,7 @@ class ContactUI extends StatelessWidget{
             child: ListTile(
               leading: const CircleAvatar(backgroundImage: AssetImage('assets/images/dp5.jpg'),),
               title: const Text('ChuuBae'),
+              subtitle: const Text('9988776655'),
               trailing: Wrap(children: const [
                 Icon(Icons.message,color: Colors.blueAccent),
                 SizedBox(width: 10),
@@ -73,6 +78,7 @@ class ContactUI extends StatelessWidget{
             child: ListTile(
               leading: const CircleAvatar(backgroundImage: AssetImage('assets/images/dp6.jpg'),),
               title: const Text('Cutie'),
+              subtitle: const Text('9988776655'),
               trailing: Wrap(children: const [
                 Icon(Icons.message,color: Colors.blueAccent),
                 SizedBox(width: 10),
@@ -85,6 +91,7 @@ class ContactUI extends StatelessWidget{
             child: ListTile(
               leading: const CircleAvatar(backgroundImage: AssetImage('assets/images/dp7.jpg'),),
               title: const Text('Achu'),
+              subtitle: const Text('9988776655'),
               trailing: Wrap(children: const [
                 Icon(Icons.message,color: Colors.blueAccent),
                 SizedBox(width: 10),
