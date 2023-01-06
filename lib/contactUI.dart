@@ -7,7 +7,7 @@ class ContactUI extends StatelessWidget{
       appBar: AppBar(
         title: const Text('Contacts'),
       ),
-      body: ListView(
+      body: Wrap(
         children:  [
           Card(
             child: ListTile(
@@ -98,7 +98,8 @@ class ContactUI extends StatelessWidget{
                 Icon(Icons.phone,color: Colors.blueAccent)
               ]),
             ),
-          )
+          ),
+          
         ],
       ),
     );

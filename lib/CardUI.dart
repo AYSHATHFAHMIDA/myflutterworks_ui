@@ -8,7 +8,7 @@ class CardUI extends StatelessWidget{
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.all(10),
-        child: Column(
+        child: Wrap(
           children: [
             Padding(
               padding: const EdgeInsets.only(top: 5,bottom: 5,right: 30,left: 30),
